@@ -1,11 +1,14 @@
 #include "stm32f4xx.h"
 #include "RttSelf.h"
+#include "sys.h"
 int main()
 {
-	Debug_Log_Self("RIGHT");
+	
+	
 	while(1)
 	{
-		Debug_Log_Self("RIGHT\r\n");
+		Debug_Log_Self("get_rcc_clock %d\r\n");
+		delay_s(1);
 	}
-	return 0;
+
 }

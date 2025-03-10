@@ -28,3 +28,4 @@
 .\objects\main.o: ..\Drivers\Library\inc\stm32f4xx_wwdg.h
 .\objects\main.o: ..\Drivers\Library\inc\misc.h
 .\objects\main.o: ..\APP\Rtt_log\RttSelf.h
+.\objects\main.o: ..\Drivers\BSP\sys.h
